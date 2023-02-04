@@ -17,5 +17,8 @@ The following comment types are supported: "<!--", "#", "//", "--", "%", "(*".
 
 ## Environment Variables
 Hooks have access to the following environment variables:
-`$file` (the absolute file path), `$relativeFile` (the file path relative to the current workspace), `$hookType` (either 'open' 'save' or 'close' based on which hook was executed), and `$workspaceFolder` (the path to the current workspace).
+- `$file` (the absolute file path)
+- `$relativeFile` (the file path relative to the current workspace)
+- `$hookType` (either 'open' 'save' or 'close' based on which hook was executed)
+- `$workspaceFolder` (the path to the current workspace).
 						
