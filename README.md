@@ -5,8 +5,11 @@ Add bash hooks to file operations (open/save/close) using comments within them.
 ## Examples
 
 ```
-#on open close: echo $(date) > timestamp.txt
 #on save: make
+#on open close: echo $(date) > timestamp.txt
+
+def main():
+    ...
 ```
 
 Multiple hooks can be included in the same file. 
